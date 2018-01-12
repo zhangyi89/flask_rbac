@@ -6,11 +6,11 @@ VERIFY_EMAIL = True
 VERIFY_USER = True
 
 # 配置根目录
-ROOT_FOLDER = os.path.dirname(os.path.abspath(__file__))
-if os.path.exists('public/static'):
-    STATIC_FOLDER = os.path.join(os.getcwd(), 'public', 'static')
-else:
-    STATIC_FOLDER = os.path.join(ROOT_FOLDER, 'public', 'static')
+# ROOT_FOLDER = os.path.dirname(os.path.abspath(__file__))
+# if os.path.exists('public/static'):
+#     STATIC_FOLDER = os.path.join(os.getcwd(), 'public', 'static')
+# else:
+#     STATIC_FOLDER = os.path.join(ROOT_FOLDER, 'public', 'static')
 
 #: site
 SITE_TITLE = 'Flask Project'
