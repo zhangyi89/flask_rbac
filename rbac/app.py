@@ -9,6 +9,7 @@ def create_app(config=None):
     app.debug = True
     app.secret_key = 'session'
     # 设置配置文件
+
     app.config.from_pyfile('_settings.py')
 
     # 注册蓝图
