@@ -27,5 +27,6 @@ def register_database(app):
 
 
 def register_routes(app):
+    """blueprints related configuration"""
     pass
 
