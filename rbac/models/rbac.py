@@ -1,9 +1,9 @@
-
-
 from ._base import db
 
+# 导入模式时，可以被使用的字段
 __all__ = [
     'Menu', 'Group', 'Permission', 'User', 'Role', 'User2role', 'Role2permission'
+
 ]
 
 
