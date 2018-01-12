@@ -1,4 +1,3 @@
-
 from flask import Flask
 
 from .models._base import db
@@ -20,6 +19,7 @@ def create_app(config=None):
     register_database(app)
 
     return app
+
 
 def register_database(app):
     """Database related configuration"""
